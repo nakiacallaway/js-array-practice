@@ -4,7 +4,7 @@
 //   b. const someArrayFunc = (arraySize, valueToPass) => {'Code for function'}
 //   c. expected result someArrayFunction(3, 'apples') = ['apples', 'apples', 'apples']
 const repeat = (item, times) => {
-	let rslt = [];
+	let results = [];
 	for(let i = 0; i < times; i++) {
   	result.push(item)
       console.log(result)
@@ -17,11 +17,12 @@ const repeat = (item, times) => {
 repeat('badger', 5);
 
 
-//Moving the branch to the back of the line.
 
 
 // 2. Reverse: Write a function that reverses the order of the items in the array
 //   a. [1,2,3] = [3,2,1]
+
+
 
 
 // 3. Create a function that removes all unnecessary elements from an array
