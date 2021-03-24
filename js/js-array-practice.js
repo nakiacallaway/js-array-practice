@@ -4,12 +4,12 @@
 //   b. const someArrayFunc = (arraySize, valueToPass) => {'Code for function'}
 //   c. expected result someArrayFunction(3, 'apples') = ['apples', 'apples', 'apples']
 const repeat = (item, times) => {
-	let rslt = [];
+	let results = [];
 	for(let i = 0; i < times; i++) {
   	rslt.push(item)
-      console.log(rslt)
+      console.log(results)
 }
-  return rslt;
+  return results;
 };
 repeat('badger', 5);
 
