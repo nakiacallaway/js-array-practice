@@ -6,12 +6,17 @@
 const repeat = (item, times) => {
 	let results = [];
 	for(let i = 0; i < times; i++) {
-  	results.push(item)
-      console.log(results)
+  	result.push(item)
+      console.log(result)
 }
-  return results;
-};
+  return result;
+
+
+}
+
 repeat('badger', 5);
+
+
 
 
 // 2. Reverse: Write a function that reverses the order of the items in the array
