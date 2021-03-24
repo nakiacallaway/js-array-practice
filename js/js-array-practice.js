@@ -35,3 +35,13 @@ console.log(cleanArray);
 //   a. let duplicateArray = [1, 4, 9, 4, 100, 4, 30, 1]
 //   b. the function should return [1, 4, 9, 100, 30]
 
+let duplicateArray = [1, 4, 9, 4, 100, 4, 30, 1]
+let newArray = duplicateArray.reduce((unique, item) => unique.includes(item) ? unique : [...unique, item], []); //this took a little tweaking but I honestly don't understand what it's doing.
+console.log(newArray)
+let shortSet = [...new Set(duplicateArray)]; //convert to set, which only allows unique items
+console.log(shortSet);
+
+// The simplest approach (in my opinion) is to use the Set object which lets you store unique values of any type. In other words, Set will automatically remove duplicates for us. 
+//const names = ["Mike","Matt","Nancy","Adam","Jenny","Nancy","Carl"];  
+//let unique = [...new Set(names)]; 
+//console.log(unique); 
