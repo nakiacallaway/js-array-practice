@@ -22,7 +22,11 @@ repeat('badger', 5);
 // 2. Reverse: Write a function that reverses the order of the items in the array
 //   a. [1,2,3] = [3,2,1]
 
+let reverseArray = [1, 2, 3, 4, 5]
+reverseArray.reverse();
+console.log(reverseArray);
 
+// [1, 2, 3, 4, 5]
 
 
 // 3. Create a function that removes all unnecessary elements from an array
