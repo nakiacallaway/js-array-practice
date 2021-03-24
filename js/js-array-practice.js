@@ -4,19 +4,12 @@
 //   b. const someArrayFunc = (arraySize, valueToPass) => {'Code for function'}
 //   c. expected result someArrayFunction(3, 'apples') = ['apples', 'apples', 'apples']
 const repeat = (item, times) => {
-	let results = [];
+	let result = [];
 	for(let i = 0; i < times; i++) {
   	result.push(item)
       console.log(result)
-}
-  return result;
-
-
-}
-
+}};
 repeat('badger', 5);
-
-
 
 
 // 2. Reverse: Write a function that reverses the order of the items in the array
@@ -33,6 +26,10 @@ console.log(reverseArray);
 //   a. use this array: let dirtyArray = [1, 'apple', false, null, 'bananas', 45, '', 'alkali', undefined];
 //   b. remove the falsy values so that the function returns: [1, 'apple', 'bananas', 45, 'alkali'];
 
+let dirtyArray = [1, 'apple', false, null, 'bananas', 45, '', 'alkali', undefined];
+let cleanArray = dirtyArray.filter(Boolean);
+
+console.log(cleanArray);
 
 // 4. Create a function that returns a duplicate free array
 //   a. let duplicateArray = [1, 4, 9, 4, 100, 4, 30, 1]
